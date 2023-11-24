@@ -5,13 +5,17 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using UP321.Components;
 
 namespace UP321
 {
     /// <summary>
-    /// Логика взаимодействия для App.xaml
+    /// Interaction logic for App.xaml
     /// </summary>
     public partial class App : Application
     {
+        public static UP321WPFEntities db = new UP321WPFEntities();
+        public static string Role = "";
+        public static int User = 0;
     }
 }

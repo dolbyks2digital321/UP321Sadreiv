@@ -4,6 +4,44 @@
              xmlns:local="clr-namespace:UP321"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="170"></Setter>
+            <Setter Property="Margin" Value="10 0"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="BorderBrush" Value="CornflowerBlue"></Setter>
+            <Setter Property="FontFamily" Value="Courier New"></Setter>
+        </Style>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="FontFamily" Value="Courier New"></Setter>
+        </Style>
+
+        <Style TargetType="DatePicker">
+            <Setter Property="Width" Value="200"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+            <Setter Property="FontFamily" Value="Courier New"></Setter>
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="Width" Value="200"></Setter>
+            <Setter Property="FontFamily" Value="Courier New"></Setter>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Width" Value="200"></Setter>
+            <Setter Property="FontFamily" Value="Courier New"></Setter>
+        </Style>
+
+        <Style TargetType="ListView">
+            <Setter Property="FontFamily" Value="Cygre"></Setter>
+            <Setter Property="FontFamily" Value="Courier New"></Setter>
+        </Style>
+
+        <Style TargetType="PasswordBox">
+            <Setter Property="FontFamily" Value="Courier New"></Setter>
+        </Style>
+        
+        
     </Application.Resources>
 </Application>

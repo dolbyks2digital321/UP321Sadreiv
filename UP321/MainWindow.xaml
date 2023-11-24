@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UP321"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="550" Width="840">
+    <Grid Background="AliceBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="180*"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" x:Name="BackButt" Click="BackButt_Click">Назад</Button>
+        <Frame NavigationUIVisibility="Hidden" x:Name="MainFrame" Grid.Row="1"/>
     </Grid>
 </Window>
